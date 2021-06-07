@@ -1,0 +1,148 @@
+/* Police d'écriture */
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/poppins.ttf");
+}
+
+@font-face {
+	font-family: "Poppins Bold";
+	src: url("../fonts/Poppins-Medium.ttf");
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Poppins";
+}
+
+/* Classes diverses (pas écrire de suite) */
+.blue-box {
+	background-color: #0475ba;
+	text-align: justify; 
+}
+
+.white-text {
+	color: white;
+	margin: 40px;
+}
+
+h3 {
+	margin: 0;
+}
+
+/* Header */
+header {
+	background-color: #0475ba;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+header h1 {
+	padding-left: 20px;
+}
+
+.nav-links {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-links li {
+	padding: 10px;
+}
+
+/* Main */
+/* Section "My info" */
+main section {
+	padding: 40px;
+}
+
+.content {
+	width: 800px;
+}
+
+.my-info-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.name-job h3 {
+	color: #0475ba;
+	font-family: "Poppins Bold";
+}
+
+img {
+	border-radius: 999px;
+	margin: 25px;
+}
+
+/* Section "Présentation" */
+
+/* Section "Expériences professionnelles" */
+.experience-content {
+    margin-bottom: 1.5rem;
+}
+
+.experience-title{
+    color: #0475ba;
+    font-family: "Poppins Bold";
+    margin-bottom: 1rem;
+}
+
+.expand-date{
+    align-content: right;
+}
+
+.education{
+	background-color: #0475ba;
+	color: white;
+}
+
+.passions{
+	color: #0475ba;
+	font-family: "Poppins Bold";
+	flex-direction: column;
+}
+
+footer{
+	background-color: #0475ba;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+.element1{
+	margin:50px;
+	text-decoration: underline;
+}
+
+.flex{
+	display:flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
